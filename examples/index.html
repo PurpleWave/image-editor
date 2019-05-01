@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <script src="http://localhost:8000/dist/ImageEditor.js"></script>
+  </head>
+  <body>
+    <canvas width="800" height="600" id="canvas"></canvas>
+    <script>
+      window.editor = new ImageEditor('http://localhost:8000/examples/bonsai.jpg', document.getElementById('canvas'));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "image-editor",
+  "version": "1.0.0",
+  "main": "dist/imageEditor.common.js",
+  "module": "dist/imageEditor.esm.js",
+  "browser": "dist/imageEditor.js",
+  "scripts": {
+    "build": "yarn run build:js",
+    "build:js": "./node_modules/.bin/rollup -c"
+  },
+  "repository": "git@github.com:PurpleWave/image-editor.git",
+  "author": "Alex Neises <alex.neises@purplewave.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-minify": "^0.5.0",
+    "change-case": "^3.1.0",
+    "create-banner": "^1.0.0",
+    "rollup": "^1.10.1",
+    "rollup-plugin-babel": "^4.3.2"
+  }
+}
