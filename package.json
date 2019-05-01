@@ -19,6 +19,7 @@
     "change-case": "^3.1.0",
     "create-banner": "^1.0.0",
     "rollup": "^1.10.1",
-    "rollup-plugin-babel": "^4.3.2"
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-babel-minify": "^8.0.0"
   }
 }
