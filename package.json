@@ -1,9 +1,9 @@
 {
   "name": "image-editor",
   "version": "1.0.0",
-  "main": "dist/imageEditor.common.js",
-  "module": "dist/imageEditor.esm.js",
-  "browser": "dist/imageEditor.js",
+  "main": "dist/ImageEditor.common.min.js",
+  "module": "dist/ImageEditor.esm.min.js",
+  "browser": "dist/ImageEditor.min.js",
   "scripts": {
     "build": "yarn run build:js",
     "build:js": "./node_modules/.bin/rollup -c"

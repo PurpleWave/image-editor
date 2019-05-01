@@ -5,10 +5,10 @@ const pkg = require('./package');
 
 pkg.name = pkg.name.replace('js', '');
 
-const name = changeCase.camelCase(pkg.name);
+const name = changeCase.pascalCase(pkg.name);
 const banner = createBanner({
   data: {
-    name: `${changeCase.pascalCase(pkg.name)}`,
+    name: `${name}`,
     year: '2019-present'
   }
 });
